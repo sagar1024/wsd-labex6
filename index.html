@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <form class="form" id="myForm">
+        <div class="container">
+            <div class="header">
+                <h1>
+                    <u>Registration Form</u>
+                </h1>
+            </div>
+            <hr>
+            <div class="fields">
+                <div class="fname">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter full name" min="3 required">
+                </div>
+                <br>
+                <br>
+                <div class="email">
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email ID" required>
+                </div>
+                <br>
+                <br>
+                <div class="password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter strong password" required>
+                </div>
+                <br>
+                <br>
+                <div class="cpassword">
+                    <label for="cpassword">Confirm Password:</label>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="Confirm your password" required>
+                </div>
+                <br>
+                <br>
+                <div class="dob">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
+                </div>
+                <br>
+                <br>
+                <div class="button">
+                    <button type="submit" id="btn" value="Register" >Submit!</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>

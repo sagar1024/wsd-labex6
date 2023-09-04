@@ -1,0 +1,86 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+
+.fields {
+    margin: 5px;
+    padding: 15px;
+}
+
+.form {
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.fname {
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.email {
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.password {
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.cpassword {
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.dob {
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.button {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    font-size: xx-large;
+}
